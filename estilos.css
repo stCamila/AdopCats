@@ -1,0 +1,98 @@
+.bg-rosa{
+    background-color: #ced4bb;
+}
+.bg-gris{
+    background-color:#9ca98a;
+}
+.border-morado{
+    background-color:#b5bfa3;
+}
+.h-200{
+    height: 200px !important;
+    transition: 0.5;
+    object-fit: cover;
+}
+.h-200:hover{
+transform:scale(1.1) ;
+}
+.bg-lila{
+    background-color:#f9f9de;
+}
+.bg-mor{
+    background-color:#9ca98a;
+}
+.bg-cf{
+    background-color:#ffffec;
+}
+.img-huellitas{
+    height: 60px !important;
+}
+.table-width{
+    width: 335px !important;
+}
+.d-item{
+    height: 500px;
+}
+.Secciones{
+    transition: 0.5;
+    object-fit: cover;
+}
+.Secciones:hover{
+    transform:scale(1.1) ;
+}
+
+.img-gato{
+	-webkit-animation: scale-up-center 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: scale-up-center 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  .titulo {
+	-webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+ @-webkit-keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+ 
